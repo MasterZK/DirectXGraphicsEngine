@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+      <FILENAME>DirectWriter.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pBackBuffer' could be '0':  this does not adhere to the specification for the function 'ID2D1Factory::CreateDxgiSurfaceRenderTarget'. </DESCRIPTION>
+    <FUNCTION>DirectWriter::init</FUNCTION>
+    <DECORATED>?init@DirectWriter@@QAEHPAUIDXGISwapChain@@HH@Z</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>7</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>9</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>11</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>12</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pBackBuffer' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>14</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>DirectWriter.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pBackBuffer' should not be NULL, because this is not consistent with the SAL annotation on 'ID2D1Factory::CreateDxgiSurfaceRenderTarget'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

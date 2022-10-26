@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\DirectX3DRenderEngine.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorVertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightVertexShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyPixelShader.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyVertexShader.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,81 @@
+﻿  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorPixelShader.cso
+  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorVertexShader.cso
+  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightPixelShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\LightVertexShader.hlsl(15,15-89): warning X3578: 'VS': Top-level return value is not completely initialized
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\LightVertexShader.hlsl(15,15-89): warning X3578: 'VS': Top-level return value is not completely initialized
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\LightVertexShader.hlsl(15,15-89): warning X3578: 'VS': Top-level return value is not completely initialized
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\LightVertexShader.hlsl(15,15-89): warning X3578: 'VS': Top-level return value is not completely initialized
+  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightVertexShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\LightVertexShader.hlsl(15,15-89): warning X3578: Output value 'VS' is not completely initialized
+  
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyPixelShader.hlsl(35,25-28): warning X3081: comma expression used where a vector constructor may have been intended
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyPixelShader.hlsl(35,25-32): warning X3081: comma expression used where a vector constructor may have been intended
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyPixelShader.hlsl(35,25-35): warning X3081: comma expression used where a vector constructor may have been intended
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyPixelShader.hlsl(46,5-45): warning X3206: implicit truncation of vector type
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyPixelShader.hlsl(47,5-93): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyPixelShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyVertexShader.hlsl(30,21-45): warning X3206: 'mul': implicit truncation of vector type
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\ShinyVertexShader.hlsl(30,5-45): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyVertexShader.cso
+  Camera.cpp
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Camera.cpp(75,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Camera.cpp(76,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Camera.cpp(81,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Direct3D.cpp
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Direct3D.cpp(90,22): warning C4244: '=': conversion from 'INT' to 'FLOAT', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Direct3D.cpp(91,23): warning C4244: '=': conversion from 'INT' to 'FLOAT', possible loss of data
+  DirectInput.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectInput.cpp(32,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectInput.cpp(35,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectInput.cpp(38,30): warning C4244: '=': conversion from 'LONG' to 'float', possible loss of data
+  DirectWriter.cpp
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectWriter.cpp(23,40): warning C4244: 'argument': conversion from 'INT' to 'FLOAT', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectWriter.cpp(23,33): warning C4244: 'argument': conversion from 'INT' to 'FLOAT', possible loss of data
+  DirectX3DRenderEngine.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  Material.cpp
+  Mesh.cpp
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(58,49): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(236,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(238,22): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(240,25): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(242,23): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(244,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(252,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(261,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(284,22): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(287,22): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(288,22): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(297,22): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(299,23): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(301,36): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(302,40): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(303,46): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(305,46): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(306,40): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(307,46): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(312,33): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(313,37): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(314,43): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(316,43): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(317,37): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(318,43): warning C4244: '=': conversion from 'DWORD' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(323,22): warning C4018: '<': signed/unsigned mismatch
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(326,38): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(327,38): warning C4244: '=': conversion from 'unsigned long' to 'WORD', possible loss of data
+  Time.cpp
+  WICTextureLoader11.cpp
+  WindowsWindow.cpp
+  Running Code Analysis for C/C++...
+  Generating Code...
+  DirectX3DRenderEngine.vcxproj -> D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\DirectX3DRenderEngine.exe
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Camera.cpp(75): warning C26451: Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Camera.cpp(75): warning C26451: Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectWriter.cpp(16): warning C6387: 'pBackBuffer' could be '0':  this does not adhere to the specification for the function 'ID2D1Factory::CreateDxgiSurfaceRenderTarget'. 
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\DirectX3DRenderEngine.cpp(14): warning C28251: Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.19041.0\um\winbase.h(1006). 
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(248): warning C6386: Buffer overrun while writing to 'vertices':  the writable size is '(unsigned int)*48' bytes, but '96' bytes might be written.
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(240): warning C26451: Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Mesh.cpp(331): warning C6386: Buffer overrun while writing to 'indices':  the writable size is 'arraySize*3*2' bytes, but '8' bytes might be written.

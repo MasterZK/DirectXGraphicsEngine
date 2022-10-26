@@ -1,0 +1,8 @@
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorPixelShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ColorVertexShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightPixelShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\LightVertexShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyPixelShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\ShinyVertexShader.cso
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\Debug\DirectX3DRenderEngine.exe.lastcodeanalysissucceeded
+D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+      <FILENAME>Mesh.cpp</FILENAME>
+      <LINE>248</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'vertices':  the writable size is '(unsigned int)*48' bytes, but '96' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Mesh::initVertexBufferSphere</FUNCTION>
+    <DECORATED>?initVertexBufferSphere@Mesh@@AAEHPAUID3D11Device@@HHH@Z</DECORATED>
+    <FUNCLINE>221</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'vertices' is an array of 1 elements (48 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>229</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>230</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>232</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>234</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>235</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>236</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' is NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>238</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;sliceCount-2')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>240</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>241</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>242</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;stackCount')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>245</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>247</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>45</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'vertices[1]', (writable range is 0 to 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+      <FILENAME>Mesh.cpp</FILENAME>
+      <LINE>240</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Mesh::initVertexBufferSphere</FUNCTION>
+    <DECORATED>?initVertexBufferSphere@Mesh@@AAEHPAUID3D11Device@@HHH@Z</DECORATED>
+    <FUNCLINE>221</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+      <FILENAME>Mesh.cpp</FILENAME>
+      <LINE>331</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'indices':  the writable size is 'arraySize*3*2' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>Mesh::initIndexBufferSphere</FUNCTION>
+    <DECORATED>?initIndexBufferSphere@Mesh@@AAEHPAUID3D11Device@@HH@Z</DECORATED>
+    <FUNCLINE>276</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'indices' is an array of 3 elements (6 bytes)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'k' may equal 3</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;sliceCount-3' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'l&lt;stackCount-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>D:\SAE Scripts\GPR5300_S1_KyawZayarmoe_3D-Object-Rendering\DirectX3DRenderEngine\DirectX3DRenderEngine\</FILEPATH>
+        <FILENAME>Mesh.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'indices[3]', (writable range is 0 to 2)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
